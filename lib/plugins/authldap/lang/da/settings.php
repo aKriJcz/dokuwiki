@@ -21,6 +21,8 @@ $lang['deref']                 = 'Hvordan skal opslag renses for henvisninger?';
 $lang['binddn']                = 'DN af en valgfri bindings-bruger, hvis ikke anonym binding er tilstrækkeligt. Fx <code>cn=admin,dc=my,dc=home</code>';
 $lang['bindpw']                = 'Adgangskode til ovenstående bruger';
 $lang['attributes']            = 'Attributter der skal hentes med LDAP søgning.';
+$lang['sso']                   = 'Bør Single-Sign-On via Kerberos bruges?';
+$lang['sso_charset']           = 'Tegnsættet som webserveren sender Kerberos brugernavnet i. Ingenting for UTF-8 ellers latin-1. Kræver iconv udvidelsen';
 $lang['userscope']             = 'Begræns søgekriterier for brugersøgning';
 $lang['groupscope']            = 'Begræns søgekriterier for gruppesøgning';
 $lang['userkey']               = 'Attribut der betegner brugernavnet; skal være i overensstemmelse med brugerfilteret.';
